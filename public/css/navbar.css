@@ -1,0 +1,29 @@
+nav{
+    background-color: #eb6440;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+    transform: rotate(180deg);
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    margin-left: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover{
+    transition: 1.3s;
+    color: white;
+}
